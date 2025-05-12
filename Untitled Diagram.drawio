@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2245" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,9 +26,9 @@
           <mxGeometry x="10" y="100" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QDYLRVPtkDUm3GfCSulV-25" value="s" style="swimlane;startSize=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-90" y="120" width="490" height="600" as="geometry" />
+          <mxGeometry x="-90" y="120" width="630" height="700" as="geometry" />
         </mxCell>
-        <mxCell id="QDYLRVPtkDUm3GfCSulV-32" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="QDYLRVPtkDUm3GfCSulV-25" edge="1" source="QDYLRVPtkDUm3GfCSulV-29">
+        <mxCell id="QDYLRVPtkDUm3GfCSulV-32" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="QDYLRVPtkDUm3GfCSulV-25" source="QDYLRVPtkDUm3GfCSulV-29" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="100" y="77" as="sourcePoint" />
             <mxPoint x="150" y="77" as="targetPoint" />
@@ -38,8 +38,8 @@
         <mxCell id="QDYLRVPtkDUm3GfCSulV-35" value="AWS WMS Prod Account" style="rounded=1;whiteSpace=wrap;html=1;" parent="QDYLRVPtkDUm3GfCSulV-25" vertex="1">
           <mxGeometry x="330" y="45" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QDYLRVPtkDUm3GfCSulV-37" value="oracle reporting DB instance" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="QDYLRVPtkDUm3GfCSulV-25" vertex="1">
-          <mxGeometry x="325" y="160" width="135" height="70" as="geometry" />
+        <mxCell id="QDYLRVPtkDUm3GfCSulV-37" value="oracle reporting DB instance (datawarehouse)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="QDYLRVPtkDUm3GfCSulV-25" vertex="1">
+          <mxGeometry x="325" y="155" width="145" height="80" as="geometry" />
         </mxCell>
         <mxCell id="QDYLRVPtkDUm3GfCSulV-48" value="" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;strokeColor=default;" parent="QDYLRVPtkDUm3GfCSulV-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -61,17 +61,11 @@
         <mxCell id="QDYLRVPtkDUm3GfCSulV-72" value="&lt;font face=&quot;Times New Roman&quot;&gt;PROD DB INSTANCE&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="QDYLRVPtkDUm3GfCSulV-25" vertex="1">
           <mxGeometry x="100" y="140" width="100" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="QDYLRVPtkDUm3GfCSulV-74" value="" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="QDYLRVPtkDUm3GfCSulV-25" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="389.5" y="230" as="sourcePoint" />
-            <mxPoint x="389.5" y="300" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="QDYLRVPtkDUm3GfCSulV-75" value="&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Accessible tables&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;1. ORDER SAHRE MCN001&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;2. ORDER SHARE MCN002&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;3. ORDER SHARE MCN003&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;4. ORDER SHARE MCN004&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;5. ORDER CONFIRAMTION&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="QDYLRVPtkDUm3GfCSulV-25" vertex="1">
           <mxGeometry x="270" y="300" width="210" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="QDYLRVPtkDUm3GfCSulV-76" value="&lt;font face=&quot;Times New Roman&quot;&gt;The accessible tables have no direct link to the production database. Only the MOVE_TASK data is pulled (unidirectional data flow) via a dedicated database link from the production DB, which includes location and quantity-to-be-picked information. This data is then shared to the Order Share tables based on Truck IDs, which are used for navigation reference (Again this has no effect on Prod DB data)&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="QDYLRVPtkDUm3GfCSulV-25" vertex="1">
-          <mxGeometry x="20" y="365" width="220" height="220" as="geometry" />
+        <mxCell id="QDYLRVPtkDUm3GfCSulV-76" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; text-align: left;&quot;&gt;With this connection method, the Jungheinrich system&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; text-align: left;&quot;&gt;can access location IDs from the table, which is available in the reporting instance we created in the database.&amp;nbsp;&lt;/span&gt;&lt;font face=&quot;Times New Roman&quot;&gt;The accessible tables have no direct link to the production database. Only the MOVE_TASK data is pulled (unidirectional data flow) via a dedicated database link from the production DB, which includes location and quantity-to-be-picked information. This data is then shared to the Order Share tables based on Truck IDs, which are used for navigation reference (Again this has no effect on Prod DB data).&amp;nbsp;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="QDYLRVPtkDUm3GfCSulV-25" vertex="1">
+          <mxGeometry x="37.5" y="420" width="237.5" height="237.5" as="geometry" />
         </mxCell>
         <mxCell id="QDYLRVPtkDUm3GfCSulV-77" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;AWS CLOUD&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="QDYLRVPtkDUm3GfCSulV-25" vertex="1">
           <mxGeometry x="190" y="8" width="100" height="30" as="geometry" />
@@ -79,14 +73,21 @@
         <mxCell id="QDYLRVPtkDUm3GfCSulV-29" value="AWS Network Account" style="rounded=1;whiteSpace=wrap;html=1;" parent="QDYLRVPtkDUm3GfCSulV-25" vertex="1">
           <mxGeometry x="150" y="52.5" width="80" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="AqB0oQ3RV6nyZsJXX6Aw-2" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="QDYLRVPtkDUm3GfCSulV-25">
+        <mxCell id="AqB0oQ3RV6nyZsJXX6Aw-2" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="QDYLRVPtkDUm3GfCSulV-25" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="230" y="74.5" as="sourcePoint" />
             <mxPoint x="330" y="74.5" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QDYLRVPtkDUm3GfCSulV-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.087;entryY=0.611;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QDYLRVPtkDUm3GfCSulV-8" edge="1" target="QDYLRVPtkDUm3GfCSulV-29">
+        <mxCell id="jQbCeF4Ce0DxccOxBuEL-2" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.448;exitY=1.038;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="QDYLRVPtkDUm3GfCSulV-25" source="QDYLRVPtkDUm3GfCSulV-37">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="390" y="250" as="sourcePoint" />
+            <mxPoint x="389.5" y="300" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDYLRVPtkDUm3GfCSulV-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.087;entryY=0.611;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QDYLRVPtkDUm3GfCSulV-8" target="QDYLRVPtkDUm3GfCSulV-29" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="120" y="200.87" as="sourcePoint" />
             <mxPoint y="200" as="targetPoint" />
